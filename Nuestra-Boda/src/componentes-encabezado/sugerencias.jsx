@@ -83,7 +83,7 @@ const SugerirCancion = () => {
           sm:w-[195px]
           md:w-[235px]
           lg:w-[275px]
-          z-0
+          z-30
           rotate-180
         "
       />
@@ -102,7 +102,7 @@ const SugerirCancion = () => {
           sm:w-[195px]
           md:w-[235px]
           lg:w-[275px]
-          z-0
+          z-30
         "
       />
 

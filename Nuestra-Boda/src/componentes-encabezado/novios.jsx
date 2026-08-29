@@ -32,7 +32,7 @@ const Novios = () => {
           sm:w-[190px]
           md:w-[230px]
           lg:w-[270px]
-          z-0
+          z-30
           rotate-90
         "
       />
@@ -51,7 +51,7 @@ const Novios = () => {
           sm:w-[190px]
           md:w-[230px]
           lg:w-[270px]
-          z-0
+          z-30
           rotate-180
         "
       />
@@ -70,7 +70,7 @@ const Novios = () => {
           sm:w-[190px]
           md:w-[230px]
           lg:w-[270px]
-          z-0
+          z-30
         "
       />
 
@@ -88,7 +88,7 @@ const Novios = () => {
           sm:w-[190px]
           md:w-[230px]
           lg:w-[270px]
-          z-0
+          z-30
           -rotate-90
         "
       />

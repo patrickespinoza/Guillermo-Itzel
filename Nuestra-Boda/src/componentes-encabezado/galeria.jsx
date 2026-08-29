@@ -87,7 +87,7 @@ const Galeria = () => {
           lg:w-[275px]
 
           rotate-90
-          z-0
+          z-30
         "
       />
 
@@ -110,7 +110,7 @@ const Galeria = () => {
           lg:w-[275px]
 
           rotate-180
-          z-0
+          z-30
         "
       />
 
@@ -132,7 +132,7 @@ const Galeria = () => {
           md:w-[235px]
           lg:w-[275px]
 
-          z-0
+          z-30
         "
       />
 
@@ -155,7 +155,7 @@ const Galeria = () => {
           lg:w-[275px]
 
           -rotate-90
-          z-0
+          z-30
         "
       />
 

@@ -32,6 +32,7 @@ const Vestimenta = () => {
       "
     >
       {/* FLORES ARRIBA A LA DERECHA */}
+      {/* z-30 hace que las flores pasen por ENCIMA de tarjeta y texto */}
       <img
         src="/flores.png"
         alt=""
@@ -41,16 +42,19 @@ const Vestimenta = () => {
           absolute
           top-[-5px]
           right-[-0px]
+
           w-[155px]
           sm:w-[195px]
           md:w-[235px]
           lg:w-[275px]
-          z-0
+
+          z-30
           rotate-180
         "
       />
 
       {/* FLORES ABAJO A LA IZQUIERDA */}
+      {/* z-30 hace que las flores pasen por ENCIMA de tarjeta y texto */}
       <img
         src="/flores.png"
         alt=""
@@ -60,11 +64,13 @@ const Vestimenta = () => {
           absolute
           bottom-[-5px]
           left-[-0px]
+
           w-[155px]
           sm:w-[195px]
           md:w-[235px]
           lg:w-[275px]
-          z-0
+
+          z-30
         "
       />
 
