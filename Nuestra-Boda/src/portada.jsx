@@ -13,7 +13,7 @@ export default function Portada() {
 
       {/* IMAGEN */}
       <img
-        src="/portada.jpg"
+        src="/portada.png"
         alt="Guillermo e Itzel"
         className="
           absolute
