@@ -730,7 +730,7 @@ Guillermo & Itzel 💍`;
               "
             >
               <img
-                src="portada.jpg"
+                src="portada.png"
                 alt="Guillermo e Itzel"
                 className="
                   w-full
