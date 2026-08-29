@@ -78,8 +78,8 @@ const Galeria = () => {
           pointer-events-none
           select-none
           absolute
-          top-[-35px]
-          left-[-50px]
+          top-[-5px]
+          left-[-0px]
 
           w-[155px]
           sm:w-[195px]
@@ -101,8 +101,8 @@ const Galeria = () => {
           pointer-events-none
           select-none
           absolute
-          top-[-35px]
-          right-[-50px]
+          top-[-5px]
+          right-[-0px]
 
           w-[155px]
           sm:w-[195px]
@@ -124,8 +124,8 @@ const Galeria = () => {
           pointer-events-none
           select-none
           absolute
-          bottom-[-35px]
-          left-[-50px]
+          bottom-[-5px]
+          left-[-0px]
 
           w-[155px]
           sm:w-[195px]
@@ -146,8 +146,8 @@ const Galeria = () => {
           pointer-events-none
           select-none
           absolute
-          bottom-[-35px]
-          right-[-50px]
+          bottom-[-5px]
+          right-[-0px]
 
           w-[155px]
           sm:w-[195px]

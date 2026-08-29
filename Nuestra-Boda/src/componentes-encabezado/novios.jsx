@@ -26,8 +26,8 @@ const Novios = () => {
           pointer-events-none
           select-none
           absolute
-          top-[-30px]
-          left-[-45px]
+          top-[-0px]
+          left-[-0px]
           w-[150px]
           sm:w-[190px]
           md:w-[230px]
@@ -45,8 +45,8 @@ const Novios = () => {
           pointer-events-none
           select-none
           absolute
-          top-[-30px]
-          right-[-45px]
+          top-[-0px]
+          right-[-0px]
           w-[150px]
           sm:w-[190px]
           md:w-[230px]
@@ -64,8 +64,8 @@ const Novios = () => {
           pointer-events-none
           select-none
           absolute
-          bottom-[-30px]
-          left-[-45px]
+          bottom-[-0px]
+          left-[-0px]
           w-[150px]
           sm:w-[190px]
           md:w-[230px]
@@ -82,8 +82,8 @@ const Novios = () => {
           pointer-events-none
           select-none
           absolute
-          bottom-[-30px]
-          right-[-45px]
+          bottom-[-0px]
+          right-[-0px]
           w-[150px]
           sm:w-[190px]
           md:w-[230px]
