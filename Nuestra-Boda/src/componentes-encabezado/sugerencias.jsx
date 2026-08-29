@@ -74,7 +74,7 @@ const SugerirCancion = () => {
         className="
           max-w-3xl
           w-full
-          bg-[#C9A227]
+          bg-[#B68B3C]
           px-7
           py-14
           sm:px-12
@@ -98,7 +98,7 @@ const SugerirCancion = () => {
             flex
             items-center
             justify-center
-            text-[#C9A227]
+            text-[#B68B3C]
           "
         >
           <Music2 size={28} />
