@@ -26,7 +26,7 @@ const Novios = () => {
           relative
           max-w-4xl
           w-full
-          bg-[#B68B3C]
+          bg-[#D4AF37]
           rounded-tl-[4rem]
           rounded-br-[4rem]
           rounded-tr-[1rem]
@@ -191,7 +191,7 @@ const Novios = () => {
           >
             <h2
               className="
-                text-[#B68B3C]
+                text-[#D4AF37]
                 uppercase
                 tracking-[0.22em]
                 text-xs
@@ -216,7 +216,7 @@ const Novios = () => {
               Guillermo Calixtro Ortiz
             </p>
 
-            <div className="w-10 h-px bg-[#B68B3C] mx-auto my-5" />
+            <div className="w-10 h-px bg-[#D4AF37] mx-auto my-5" />
 
             <p
               className="
@@ -250,7 +250,7 @@ const Novios = () => {
           >
             <h2
               className="
-                text-[#B68B3C]
+                text-[#D4AF37]
                 uppercase
                 tracking-[0.22em]
                 text-xs
@@ -275,7 +275,7 @@ const Novios = () => {
               Benito Telles Hernández
             </p>
 
-            <div className="w-10 h-px bg-[#B68B3C] mx-auto my-5" />
+            <div className="w-10 h-px bg-[#D4AF37] mx-auto my-5" />
 
             <p
               className="

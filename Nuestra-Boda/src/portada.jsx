@@ -77,29 +77,29 @@ export default function Portada() {
 
         {/* LÍNEA DECORATIVA */}
         <div className="flex items-center w-[220px] sm:w-[260px] mt-6 mb-5">
-          <div className="h-px flex-1 bg-white/60" />
+          <div className="h-px flex-1 bg-white" />
 
           <span
             className="
               mx-4
               font-['Cormorant_Garamond']
               italic
-              text-lg
+              text-3xl
             "
           >
             G & I
           </span>
 
-          <div className="h-px flex-1 bg-white/60" />
+          <div className="h-px flex-1 bg-white" />
         </div>
 
         {/* FECHA */}
         <p
           className="
             font-['Cormorant_Garamond']
-            text-[15px]
+            text-[30px]
             sm:text-base
-            md:text-lg
+            md:text-3xl
             uppercase
             tracking-[0.38em]
             pl-[0.38em]
