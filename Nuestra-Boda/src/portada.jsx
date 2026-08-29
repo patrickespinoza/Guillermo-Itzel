@@ -1,47 +1,114 @@
-import React, { useRef, useState } from 'react';
-
+import React from "react";
 
 export default function Portada() {
-  const audioRef = useRef(null);
-  const [isMuted, setIsMuted] = useState(false); 
-
-  const handlePlayMusic = () => {
-    if (audioRef.current) {
-      audioRef.current.play().catch((error) => {
-        console.error("Error al intentar reproducir el audio:", error);
-      });
-    }
-  };
-
-  const toggleMute = () => {
-    if (audioRef.current) {
-      audioRef.current.muted = !isMuted; 
-      setIsMuted(!isMuted); 
-    }
-  };
-
   return (
-    <div>
-      <section className="relative w-full h-[calc(110vh-160px)] md:h-screen flex flex-col items-center justify-center text-white">
-        <img
-          src="/portada.png"
-          alt="Fondo"
-          className="absolute w-full h-full object-cover"
-        />
+    <section className="relative w-full h-screen min-h-[650px] overflow-hidden bg-black">
+      
+      {/* FUENTE ELEGANTE */}
+      <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,500&display=swap');
+        `}
+      </style>
 
-        <div className="relative bg-opacity-50 rounded-lg w-full h-full justify-center items-center flex flex-col p-4 gap-4">
-          <h1 className="roboto-black p-12 text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-serif">
-            Nuestra Boda
-          </h1>
-          <p className="font-serif text-2xl sm:text-2xl md:text-3xl lg:text-4xl" >11 |
-             06 | 2026
-          </p>
-          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">Karla & Mark</p>
+      {/* IMAGEN */}
+      <img
+        src="/portada.jpg"
+        alt="Guillermo e Itzel"
+        className="
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+          object-center
+        "
+      />
+
+      {/* DEGRADADO SUAVE INFERIOR */}
+      <div
+        className="
+          absolute
+          inset-0
+          bg-gradient-to-b
+          from-transparent
+          via-transparent
+          to-black/60
+        "
+      />
+
+      {/* INFORMACIÓN */}
+      <div
+        className="
+          absolute
+          bottom-0
+          left-0
+          w-full
+          flex
+          flex-col
+          items-center
+          text-center
+          px-6
+          pb-12
+          sm:pb-14
+          md:pb-16
+          text-white
+        "
+      >
+        {/* NOMBRES */}
+        <h1
+          className="
+            font-['Cormorant_Garamond']
+            italic
+            font-normal
+            text-[48px]
+            sm:text-[58px]
+            md:text-[70px]
+            lg:text-[82px]
+            leading-[0.9]
+            tracking-[-0.02em]
+            drop-shadow-md
+          "
+        >
+          Guillermo
+          <span className="mx-3 font-light">&</span>
+          Itzel
+        </h1>
+
+        {/* LÍNEA DECORATIVA */}
+        <div className="flex items-center w-[220px] sm:w-[260px] mt-6 mb-5">
+          <div className="h-px flex-1 bg-white/60" />
+
+          <span
+            className="
+              mx-4
+              font-['Cormorant_Garamond']
+              italic
+              text-lg
+            "
+          >
+            G & I
+          </span>
+
+          <div className="h-px flex-1 bg-white/60" />
         </div>
-      </section>
-    </div>
-    
+
+        {/* FECHA */}
+        <p
+          className="
+            font-['Cormorant_Garamond']
+            text-[15px]
+            sm:text-base
+            md:text-lg
+            uppercase
+            tracking-[0.38em]
+            pl-[0.38em]
+            font-normal
+          "
+        >
+          26 · 09 · 2026
+        </p>
+      </div>
+    </section>
   );
 }
-
-
