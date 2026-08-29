@@ -13,7 +13,7 @@ export default function ConfirmacionAsistencia() {
   const [datosCargados, setDatosCargados] = useState(false);
 
   const SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbxLG3ne_eUekKKHt20YlciIb5_IpJkc38TEOmMtHZ-AEvxunzrvsCQgov-54L1czwmaUQ/exec";
+    "https://script.google.com/macros/s/AKfycbxHqGt-0PZuDJaqs1pgeBBwxsRwD8dXRlsrg0KI3sqkf3lol79aPBrFP32GfTYbB9-L/exec";
 
   /*
   =====================================================
