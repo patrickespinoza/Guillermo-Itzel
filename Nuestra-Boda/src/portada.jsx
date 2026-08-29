@@ -97,7 +97,7 @@ export default function Portada() {
         <p
           className="
             font-['Cormorant_Garamond']
-            text-[30px]
+            text-[25px]
             sm:text-base
             md:text-3xl
             uppercase
