@@ -57,8 +57,110 @@ const Galeria = () => {
   };
 
   return (
-    <section className="w-full bg-white py-20 sm:py-24 px-5 overflow-hidden">
-      <div className="max-w-5xl mx-auto text-center">
+    <section
+      className="
+        relative
+        w-full
+        bg-white
+        py-20
+        sm:py-24
+        px-5
+        overflow-hidden
+      "
+    >
+      {/* =========================================
+          FLORES SUPERIOR IZQUIERDA
+      ========================================= */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          top-[-35px]
+          left-[-50px]
+
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+
+          rotate-90
+          z-0
+        "
+      />
+
+      {/* =========================================
+          FLORES SUPERIOR DERECHA
+      ========================================= */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          top-[-35px]
+          right-[-50px]
+
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+
+          rotate-180
+          z-0
+        "
+      />
+
+      {/* =========================================
+          FLORES INFERIOR IZQUIERDA
+      ========================================= */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          bottom-[-35px]
+          left-[-50px]
+
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+
+          z-0
+        "
+      />
+
+      {/* =========================================
+          FLORES INFERIOR DERECHA
+      ========================================= */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          bottom-[-35px]
+          right-[-50px]
+
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+
+          -rotate-90
+          z-0
+        "
+      />
+
+      {/* CONTENIDO */}
+      <div className="relative z-10 max-w-5xl mx-auto text-center">
 
         {/* TEXTO SUPERIOR */}
         <p

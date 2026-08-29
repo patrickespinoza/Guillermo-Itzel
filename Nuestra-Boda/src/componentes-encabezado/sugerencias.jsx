@@ -10,7 +10,8 @@ const SugerirCancion = () => {
 
   // Aquí pondremos el mismo Apps Script que usaremos
   // para confirmaciones y canciones.
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxHqGt-0PZuDJaqs1pgeBBwxsRwD8dXRlsrg0KI3sqkf3lol79aPBrFP32GfTYbB9-L/exec";
+  const SCRIPT_URL =
+    "https://script.google.com/macros/s/AKfycbxHqGt-0PZuDJaqs1pgeBBwxsRwD8dXRlsrg0KI3sqkf3lol79aPBrFP32GfTYbB9-L/exec";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -44,6 +45,7 @@ const SugerirCancion = () => {
       setCancion("");
     } catch (error) {
       console.error("Error al enviar la canción:", error);
+
       setMensaje(
         "No pudimos enviar tu sugerencia. Inténtalo nuevamente."
       );
@@ -55,6 +57,7 @@ const SugerirCancion = () => {
   return (
     <section
       className="
+        relative
         w-full
         bg-white
         py-20
@@ -66,12 +69,51 @@ const SugerirCancion = () => {
         overflow-hidden
       "
     >
+      {/* FLORES ARRIBA DERECHA */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          top-[-35px]
+          right-[-50px]
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+          z-0
+          rotate-180
+        "
+      />
+
+      {/* FLORES ABAJO IZQUIERDA */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          bottom-[-35px]
+          left-[-50px]
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+          z-0
+        "
+      />
+
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         className="
+          relative
+          z-10
           max-w-3xl
           w-full
           bg-[#B68B3C]

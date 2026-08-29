@@ -19,6 +19,7 @@ const Vestimenta = () => {
   return (
     <section
       className="
+        relative
         w-full
         bg-white
         py-20
@@ -30,6 +31,43 @@ const Vestimenta = () => {
         overflow-hidden
       "
     >
+      {/* FLORES ARRIBA A LA DERECHA */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          top-[-35px]
+          right-[-50px]
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+          z-0
+          rotate-180
+        "
+      />
+
+      {/* FLORES ABAJO A LA IZQUIERDA */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          bottom-[-35px]
+          left-[-50px]
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+          z-0
+        "
+      />
+
       <motion.div
         variants={fadeUp}
         initial="hidden"
@@ -37,6 +75,7 @@ const Vestimenta = () => {
         viewport={{ once: true }}
         className="
           relative
+          z-10
           max-w-3xl
           w-full
           bg-[#B68B3C]

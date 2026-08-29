@@ -65,6 +65,7 @@ const CuentaRegresiva = ({
   return (
     <section
       className="
+        relative
         w-full
         bg-white
         px-5
@@ -73,8 +74,48 @@ const CuentaRegresiva = ({
         overflow-hidden
       "
     >
+      {/* FLORES ESQUINA SUPERIOR IZQUIERDA */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          top-[-35px]
+          left-[-50px]
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+          z-0
+          rotate-90
+        "
+      />
+
+      {/* FLORES ESQUINA INFERIOR DERECHA */}
+      <img
+        src="/flores.png"
+        alt=""
+        className="
+          pointer-events-none
+          select-none
+          absolute
+          bottom-[-35px]
+          right-[-50px]
+          w-[155px]
+          sm:w-[195px]
+          md:w-[235px]
+          lg:w-[275px]
+          z-0
+          -rotate-90
+        "
+      />
+
       <div
         className="
+          relative
+          z-10
           max-w-5xl
           mx-auto
           text-center
